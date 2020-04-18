@@ -1,9 +1,9 @@
 CC = gcc
-CFLAGS = -Wall -lreadline
+CFLAGS = -Wall
 
 BIN = tux
-OBJ = tux.o
-SRC = tux.c
+OBJ = tux.o fileio.o
+SRC = tux.c fileio.c
 
 $(BIN): $(OBJ)
 	$(CC) -o $(BIN) $(OBJ) $(CFLAGS)
