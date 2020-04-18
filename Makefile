@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -lreadline
+CFLAGS = -Wall
 
 BIN = tux
 OBJ = tux.o
